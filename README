@@ -1,4 +1,17 @@
 ROBOTOX:
 --------
 
-Some robotics and raspberry experimentations..
+
+--PYTHON
+	Some pyhton basics experimentations.
+
+--BUTTON_GAME
+	A game wich consists in taping the correct buttun sequences as the LED's play thoses sequences.
+	
+	-Exemple:
+	---------
+		if the sequence is 'd1-d1-d2' the player will have to hit 'b1-b1-b2'
+		where d1 and d2 are LED 1 and LED 2 and b1 b2 are button 1 and button 2
+
+	The first sequence is composed by only one LED lighting up. the number of LED lighting up by sequence will
+	increase by one every sequence done correctly by the player
